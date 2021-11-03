@@ -251,3 +251,8 @@ body{
 .kontaktinformasjon{
     margin-left: -150px;
 }
+
+.mailling{
+    color: #cccccc;
+    text-decoration: none;
+}
