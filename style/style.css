@@ -261,3 +261,13 @@ body{
     text-decoration: none;
     color: #cccccc;
 }
+
+.telefonlink{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.telefonlink:hover{
+    text-decoration: none;
+    color: #cccccc;
+}
