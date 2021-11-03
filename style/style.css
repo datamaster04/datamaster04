@@ -83,29 +83,29 @@ body{
 
 
 .innebandy{
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 650px;
     border-style: solid;
     border-color: white;
 }
 
 .fifa{
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 650px;
     border-style: solid;
     border-color: white;
 }
 
 .ishockey{
-    height:350px;
-    width:auto;
+    height: auto;
+    width: 650px;
     border-style: solid;
     border-color: white;
 }
 
 .programmering{
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 650px;
     border-style: solid;
     border-color: white;
 }
@@ -153,8 +153,8 @@ body{
 }
 
 .youtube{
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 650px;
     border-style: solid;
     border-color: white;
 }
@@ -270,4 +270,8 @@ body{
 .telefonlink:hover{
     text-decoration: none;
     color: #cccccc;
+}
+
+.col-12 col-lg-6{
+    margin: 10px;
 }
