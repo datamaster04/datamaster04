@@ -259,4 +259,5 @@ body{
 
 .maillink:hover {
     text-decoration: none;
+    color: #cccccc;
 }
