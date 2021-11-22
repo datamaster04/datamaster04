@@ -349,7 +349,7 @@ color: #cccccc;
 }
 
 .navbar-brand:hover{
-    color: #c29bbd;
+    color: #cccccc !important;
 }
 
 .navbar-brand:hover {opacity: 1;}
@@ -366,7 +366,7 @@ color: #cccccc;
    }
    
    .nav-link:hover{
-       color: #c29bbd !important;
+       color: #cccccc !important;
    }
    
    .nav-link:hover {opacity: 1;}
