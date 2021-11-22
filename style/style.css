@@ -366,7 +366,7 @@ color: #cccccc;
    }
    
    .nav-link:hover{
-       color: #c29bbd;
+       color: #c29bbd !important;
    }
    
    .nav-link:hover {opacity: 1;}
