@@ -354,3 +354,20 @@ color: #cccccc;
 
 .navbar-brand:hover {opacity: 1;}
 
+.navbar-link{
+    border: none;
+    color: #cccccc;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+   }
+   
+   .navbar-link:hover{
+       color: #c29bbd;
+   }
+   
+   .navbar-link:hover {opacity: 1;}
+   
