@@ -348,7 +348,7 @@ color: #cccccc;
  transition: 0.3s;
 }
 
-.navbar-brand::after{
+.navbar-brand:hover{
     color: #c29bbd;
 }
 
