@@ -354,7 +354,7 @@ color: #cccccc;
 
 .navbar-brand:hover {opacity: 1;}
 
-.nav-link-brand{
+.nav-item-brand{
     border: none;
     color: #cccccc;
     padding: 16px 32px;
@@ -365,8 +365,8 @@ color: #cccccc;
     transition: 0.3s;
    }
    
-   .nav-link:hover{
+   .nav-item:hover{
        color: #c29bbd;
    }
    
-   .nav-link-brand:hover {opacity: 1;}
+   .nav-item-brand:hover {opacity: 1;}
