@@ -339,13 +339,17 @@ color: #cccccc;
 
 .navbar-brand{
  border: none;
- color: #c29bbd;
+ color: #cccccc;
  padding: 16px 32px;
  text-align: center;
  font-size: 16px;
  margin: 4px 2px;
  opacity: 0.6;
  transition: 0.3s;
+}
+
+.navbar-brand::after{
+    color: #c29bbd;
 }
 
 .navbar-brand:hover {opacity: 1;}
