@@ -354,9 +354,9 @@ color: #cccccc;
 
 .navbar-brand:hover {opacity: 1;}
 
-.navbar-link{
+.nav-link{
     border: none;
-    color: #cccccc;
+    color: #c29bbd;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
@@ -365,9 +365,9 @@ color: #cccccc;
     transition: 0.3s;
    }
    
-   .navbar-link:hover{
+   .nav-link:hover{
        color: #c29bbd;
    }
    
-   .navbar-link:hover {opacity: 1;}
+   .nav-link:hover {opacity: 1;}
    
