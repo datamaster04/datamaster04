@@ -336,3 +336,16 @@ color: #cccccc;
     left: 50%;
     transform: translateX(-50%);
 }
+
+.navbar-brand{
+ border: none;
+ color: white;
+ padding: 16px 32px;
+ text-align: center;
+ font-size: 16px;
+ margin: 4px 2px;
+ opacity: 0.6;
+ transition: 0.3s;
+}
+
+.navbar-brand:hover {opacity: 1;}
