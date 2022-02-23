@@ -5,47 +5,52 @@ import '../App.css';
 export default function Home() {
     return (
         <section>
-      
-        
-        <div className='container'>
-            <div className='HvorforHamar'>
-                <p className='Tekst_HvorforHamar'>Hvorfor flytte til Hamar?</p>
-            </div>
-            <div className='row justify-content-center text-center g-0'>
-                <div className='col-12 col-lg-6 turisme-test'>
-                <h2 className='has-text-align-center has-primary-color has-text-color'> Turisme</h2>
-                            <p className='has-text-align-center has-primary-color has-text-color'> Hamar er en by med mye turisme, vi har gamle 
-                            attraksjoner som Kirsti Flagstad museum, Domkirkodden. Vi har også nye attraksjoner som Kulturhus, Kino, og et 
-                            fantastisk landskap. Kom til Hamar, vi har flotte eiendommer, vinteraktiviteter, hoteller, og masse arrangementer. 
-                            Vi er også Norges spisekammer her på østlandet.</p>
-                            <h6 className='has-text-align-center has-accent-color has-text-color'>
-                                    <a className='link-hamar-kommune' href='https://www.hamar.kommune.no/'>Hamar</a>
-                            </h6>
-                </div>
-                <div className='col-12 col-lg-6 teknologi-test'>
-                <h2 className='has-text-align-center has-primary-color has-text-color'> Teknologi & Gründer næring</h2>
-                            <p className='has-text-align-center has-primary-color has-text-color'> Hamar er full
-                             av teknologi, vi omgir oss i teknologi hele dagen. Det er elektriserte og automatiserte 
-                             løsninger gjennom hele byen. Hamar er Norges spill hovedstad, det er mange muligheter 
-                             i karrieren din her i Hamar regionen </p>
-                            <h6 className='has-text-align-center has-accent-color has-text-color'>
-                                    <a className='link-hamar-kommune' href='https://parkhamar.no/'>Park - Gründermiljøet</a>
-                            </h6>
-                </div>
-                <div className='col-12 col-lg-6'>
-                <h2 className='has-text-align-center has-primary-color has-text-color'> Teknologi & Gründer næring</h2>
-                            <p className='has-text-align-center has-primary-color has-text-color'> Hamar er full
-                             av teknologi, vi omgir oss i teknologi hele dagen. Det er elektriserte og automatiserte 
-                             løsninger gjennom hele byen. Hamar er Norges spill hovedstad, det er mange muligheter 
-                             i karrieren din her i Hamar regionen </p>
-                            <h6 className='has-text-align-center has-accent-color has-text-color'>
-                                    <a className='link-hamar-kommune' href='https://parkhamar.no/'>Park - Gründermiljøet</a>
-                            </h6>
-                </div>
-            </div>
+    <div className="waveWrapper waveAnimation long_background">
+        <div className="waveWrapperInner bgTop">
+            <div className="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
         </div>
+        <div className="waveWrapperInner bgMiddle">
+            <div className="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+        </div>
+        <div className="waveWrapperInner bgBottom">
+            <div className="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+        </div>
+    </div>
         
+    <div className="container">
+        <div className="row justify-contify-center text-center g-0">
+        <div className="col-12 col-lg-6">                              
+      <p className="gaming">Gaming</p>
+    </div>
+    <div className="col-12 col-lg-6">
+      <p className="innebandy_tekst">Innebandy</p>   
+    </div>
+    <div className="col-12 col-lg-6">
+      <p className="ishockey_tekst">Ishockey</p>
+    </div>
+    <div className="col-12 col-lg-6">
+      <p className="programmering_tekst">Programmering</p>
+    </div>
+    <div className="col-12 col-lg-6">
+      <p className="hamkam_tekst">Fotball</p>
+    </div>
+    <div className="col-12 col-lg-6">
+      <p className="youtube_tekst">Youtube og Video redigering</p>
+    </div>
+        </div>
+    </div>
+
+    <div className="kontaktinformasjon">
+        <p className="kontakttekst">Navn: Sondre Røste-Kise
+         <br />
+         <a className="telefonlink" href="tel:95032146">Telefon: 95032146</a>
+         <br />
+         <a className="maillink" href="mailto:datamaster04@gmail.com">Mail: datamaster04</a>
+            
+        </p>
+    </div>
         
     </section>
+    
     )
 }
