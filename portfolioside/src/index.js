@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Home from "./pages/Home"
+import OmMeg from "./pages/OmMeg"
+import Cv from "./pages/Cv"
+import Prosjekter from "./pages/Prosjekter"
+import Nettbutikk from "./pages/Nettbutikk"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-reportWebVitals();
+export {
+  Home,
+  OmMeg,
+  Cv,
+  Prosjekter,
+  Nettbutikk
+}
