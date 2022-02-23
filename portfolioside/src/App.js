@@ -11,7 +11,7 @@ function App() {
   return <BrowserRouter>
   <Header />
   <Routes>
-    <Route path="/Home" element={<Pages.Home />} />
+    <Route path="/" element={<Pages.Home />} />
 
     <Route path="/om-meg" element={<Pages.OmMeg />} />
     <Route path="/cv" element={<Pages.Cv />} />
