@@ -13,11 +13,11 @@ function App() {
   <Routes>
     <Route path="/" element={<Home />} />
 
-    {/* <Route path="/om-meg" element={<Pages.OmMeg />} />
+    <Route path="/om-meg" element={<Pages.OmMeg />} />
     <Route path="/cv" element={<Pages.Cv />} />
     <Route path="/prosjekter" element={<Pages.Prosjekter />} />
     <Route path="/nettbutikk" element={<Pages.Nettbutikk />} />
-    <Route path="*" element={<Navigate to="/Home" />} /> */}
+    <Route path="*" element={<Navigate to="/Home" />} /> 
   </Routes>
   </BrowserRouter>)
                                                                                                                                                                                                                         
